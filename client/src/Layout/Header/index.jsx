@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="sticky top-0 bg-[#F6F6F6] z-[50px]">
+    <div className="sticky top-0 bg-[#F6F6F6] z-[9999]">
       <div className=" mx-auto px-[10px] max-w-[1320px] py-[30px] bg-transparent ">
         <div className="grid grid-cols-12 items-center">
           <div className="col-span-2">

@@ -1,5 +1,5 @@
-import React from "react";
-import BannerSection from "../Sections/BannerSection";
+import BannerSection from "../Components/BannerSection";
+
 
 const HomeTemp = () => {
   return (
