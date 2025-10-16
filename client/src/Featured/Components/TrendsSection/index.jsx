@@ -13,14 +13,14 @@ const TrendsSection = () => {
   const [load, setload] = useState(8);
 
   return (
-    <div className="max-w-[1320px] mx-auto px-[10px]  mb-[40px]">
+    <div className="max-w-[1320px] mx-auto px-[10px]   mb-[40px]">
       <HeadingText
         title={"Trending Products"}
         desc={
           "Mirum est notare quam littera gothica quam nunc putamus parum claram!"
         }
       />
-      <div className="grid grid-cols-4 gap-[20px]">
+      <div className="grid grid-cols-4 gap-[20px] mt-[50px]">
         {data &&
           data
             .slice(0, load)
