@@ -4,7 +4,7 @@ import "swiper/css/pagination";
 
 const BannerSection = () => {
   return (
-    <div className=" bg-[#F6F6F6] ">
+    <div className=" bg-[#F6F6F6]  h-[750px]">
       <div className="mx-auto px-[10px] max-w-[1320px] ">
         <Swiper className="mySwiper relative">
           <SwiperSlide className="">
