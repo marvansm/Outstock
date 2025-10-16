@@ -1,4 +1,16 @@
 const Header = () => {
+  function scrollChangeHeader() {
+    const header = document.querySelector(".sticky");
+    if (window.scrollY >= 80) {
+      header.classList.add("bg-white", "shadow-md");
+      header.classList.remove("bg-[#F6F6F6]", "py-[30px]");
+    } else {
+      header.classList.remove("bg-white", "shadow-md");
+      header.classList.add("bg-[#F6F6F6]");
+    }
+  }
+  window.addEventListener("scroll", scrollChangeHeader);
+
   return (
     <div className="sticky top-0 bg-[#F6F6F6] z-[9999]">
       <div className=" mx-auto px-[10px] max-w-[1320px] py-[30px] bg-transparent ">

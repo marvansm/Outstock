@@ -17,9 +17,9 @@ const Cards = ({
               sale.includes("%")
                 ? "bg-[#BC8246] text-white"
                 : sale.toLowerCase().includes("out")
-                ? "bg-[#FFC107] text-black" //
+                ? "bg-[#FFC107] text-black"
                 : sale.toLowerCase().includes("pre")
-                ? "bg-[#0DCAF0] text-white" //
+                ? "bg-[#0DCAF0] text-white"
                 : "bg-gray-500"
             }`}
           >
