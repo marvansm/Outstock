@@ -50,10 +50,10 @@ const Cards = ({
         </div>
         <div className="absolute bottom-4 right-2 z-[50]">
           <ul className="flex items-center gap-2.5 flex-col">
-            <li className="w-[50px] h-[50px] bg-white rounded-full text-[#969595] flex items-center justify-center transform rotate-180 translate-x-20 group-hover:rotate-0 group-hover:translate-x-0 duration-500">
+            <li className="w-[50px] h-[50px] bg-white rounded-full cursor-pointer text-[#969595] flex items-center justify-center transform rotate-180 translate-x-20 group-hover:rotate-0 group-hover:translate-x-0 duration-500">
               <i class="ri-poker-hearts-line text-[18px]"></i>
             </li>
-            <li className="w-[50px] h-[50px] bg-white rounded-full text-[#969595] flex items-center justify-center transform rotate-180 translate-x-20 group-hover:rotate-0 group-hover:translate-x-0 duration-500">
+            <li className="w-[50px] h-[50px] bg-white rounded-full cursor-pointer text-[#969595] flex items-center justify-center transform rotate-180 translate-x-20 group-hover:rotate-0 group-hover:translate-x-0 duration-500">
               <i class="ri-search-line text-[18px]"></i>
             </li>
           </ul>

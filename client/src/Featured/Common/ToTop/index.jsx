@@ -5,9 +5,9 @@ const ToTop = () => {
       behavior: "smooth",
     });
   };
+
   function toTopVisible() {
     const scrollBtn = document.querySelector(".scroll");
-
     if (window.scrollY >= 300) {
       scrollBtn.classList.remove("hidden");
       scrollBtn.classList.add("flex");

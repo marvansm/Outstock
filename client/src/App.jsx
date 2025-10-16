@@ -1,6 +1,7 @@
 import Layout from "./Layout";
 import Home from "./Featured/Pages/Home";
 import ToTop from "./Featured/Common/ToTop";
+import DetailModal from "./Featured/Common/Modal";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Layout>
         <Home />
         <ToTop />
+        <DetailModal />
       </Layout>
     </div>
   );
