@@ -62,12 +62,12 @@ const Cards = ({
           <img src={hoverImg} alt="" />
         </div>
       </div>
-      <div className="body">
+      <div className="body  ">
         <h2 className="text-[#8c8c8c] leading-[20px] text-[14px] hover:text-[#BC8246] duration-200 mt-[6px]">
           {title}
         </h2>
         <div className="flex items-center justify-between">
-          <div className="price mt-1 flex items-center gap-1.5 tranfsorm -translate-x-0 group-hover:-translate-x-50 duration-200">
+          <div className="price mt-1 flex items-center gap-1.5 tranfsorm  group-hover:-translate-x-50 duration-200">
             <span className="text-[#201f1f] text-[14px] font-normal">
               {discountPrice}
             </span>
@@ -75,7 +75,7 @@ const Cards = ({
               {price}
             </span>
           </div>
-          <p className="border-b border-gray-400 text-[#201f1f] text-[14px] font-medium capitalize transform translate-x-30 group-hover:-translate-x-57 duration-200 hover:text-[#bd8448] cursor-pointer">
+          <p className="border-b border-gray-400 text-[#201f1f] text-[14px] font-medium capitalize transform translate-x-30 group-hover:-translate-x-53 duration-200 hover:text-[#bd8448] cursor-pointer">
             + Add to Cart
           </p>
         </div>
