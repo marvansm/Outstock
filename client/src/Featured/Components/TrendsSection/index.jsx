@@ -20,6 +20,7 @@ const TrendsSection = () => {
       setLoad((prev) => prev + 4);
       setLoading(false);
     }, 800);
+  };
 
   return (
     <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-10 mb-10">
