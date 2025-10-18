@@ -53,7 +53,7 @@ const DetailModal = ({ isOpen, onClose, product }) => {
                   <SwiperSlide>
                     <div className="flex items-center justify-center  transition-all duration-300 mx-auto">
                       <img
-                        src={product.hoverImg}
+                        src={product?.hoverImage}
                         alt=""
                         className="w-full h-full object-cover"
                       />

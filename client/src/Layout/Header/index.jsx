@@ -1,3 +1,4 @@
+import { Link, Links } from "react-router-dom";
 const Header = () => {
   function scrollChangeHeader() {
     const header = document.querySelector(".sticky");
@@ -69,7 +70,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className=" cursor-pointer">
+            <div className=" cursor-pointer relative group">
               <svg
                 className="icon icon-hamburger"
                 width="15"
@@ -80,6 +81,20 @@ const Header = () => {
               >
                 <path d="M27 130q-4-4-7-9t-4-10.5T15 98q0-19 12-31t31-12h913q19 0 31 12t12 31t-12 31.5t-31 12.5H58q-19 0-31-12zm975 285q12 12 12 31t-12 31t-31 12H58q-19 0-31-12q-2-2-4-5t-3.5-6t-2.5-6t-1.5-6.5t-.5-7.5q0-19 12-31t31-12h913q19 0 31 12zm0 347q12 12 12 31t-12 31.5t-31 12.5H58q-19 0-31-12q-2-2-3.5-4.5l-3-5l-2.5-5l-2-5.5l-1-5.5V793q0-19 12-31t31-12h913q18 0 31 12z" />
               </svg>
+              <div className="absolute top-3 left-0 hidden group-hover:flex bg-white px-6 shadow-md h-[100px]  items-center justify-center rounded-2xl">
+                <ul className="flex flex-col items-start gap-3.5">
+                  <Link to={"/login"}>
+                    <li className="hover:text-red-500 duration-300 cursor-pointer">
+                      Login
+                    </li>
+                  </Link>
+                  <Link to={"/register"}>
+                    <li className="hover:text-red-500 duration-300 cursor-pointer">
+                      Register
+                    </li>
+                  </Link>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
